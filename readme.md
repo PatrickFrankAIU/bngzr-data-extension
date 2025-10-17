@@ -13,3 +13,9 @@
 - Click "Fetch All Unions Data"
 - When it's finished, click "Download CSV File"
 
+**Created by:**
+- Mihalj (BNGZR)
+- Juggernaut (BNGZR)
+
+**Documented and minor editing by:** 
+- Ruby on Rails (BNGZR)
