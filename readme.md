@@ -1,5 +1,7 @@
+![Interface](image-1.png)
+
 **Instructions:**
-- Download the four files
+- Download the files
 - Place them in a folder
 - Open chrome: extensions
 - Click "Developer Mode"
