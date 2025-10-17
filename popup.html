@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 350px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .status {
+      background: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+      margin: 10px 0;
+      font-size: 12px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .primary {
+      background: #27ae60;
+      color: white;
+    }
+    .primary:disabled {
+      background: #95a5a6;
+      cursor: not-allowed;
+    }
+    .secondary {
+      background: #3498db;
+      color: white;
+    }
+    .secondary:disabled {
+      background: #95a5a6;
+      cursor: not-allowed;
+    }
+    .view {
+      background: #f39c12;
+      color: white;
+    }
+    .progress {
+      margin: 10px 0;
+      font-size: 12px;
+      color: #7f8c8d;
+    }
+    .success {
+      color: #27ae60;
+    }
+    .error {
+      color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+  <h3>TS2 Leaderboard Downloader</h3>
+  
+  <div class="status">
+    <strong>Token Status:</strong><br>
+    <span id="tokenStatus">Checking tokens...</span>
+  </div>
+
+  <div class="progress">
+    <span id="progressText"></span>
+  </div>
+  
+  <button id="fetchAll" class="primary" disabled>Fetch All Unions Data</button>
+  <button id="downloadCSV" class="secondary" disabled>Download CSV File</button>
+  <button id="viewTokens" class="view">View Captured Tokens</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

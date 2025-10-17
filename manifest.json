@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "TS2 Leaderboard Downloader",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://game.trainstation2.com/*",
+    "https://*.pley.games/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
