@@ -21,3 +21,6 @@
 
 **Documented and minor editing by:** 
 - Ruby on Rails (BNGZR)
+
+Find us in Discord: 
+https://discord.gg/jUnmeaeSad
