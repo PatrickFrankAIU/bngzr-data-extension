@@ -17,7 +17,7 @@
 
 **Created by:**
 - Mihalj (BNGZR)
-- Juggernaut (BNGZR)
+- Juggernaut (BNGZR) 
 
 **Documented and minor editing by:** 
 - Ruby on Rails (BNGZR)
